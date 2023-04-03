@@ -1,0 +1,16 @@
+conda activate 상태에서
+jupyter notebook --generate-config
+
+Users/dldls/.jupyter/jupyter_notebook_config
+
+dir 지정
+c.NotebookApp.notebook_dir = 'path'
+
+c.NotebookApp.open_browser = False
+
+c.NotebookApp.password = ''
+
+c.NotebookApp.password_required = False
+
+
+c.NotebookApp.port = 8888
